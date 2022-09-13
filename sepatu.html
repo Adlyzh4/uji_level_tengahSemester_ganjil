@@ -7,35 +7,48 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
+    <style>
+        body{
+            background-image: url(assets/Shoppingbg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
 </head>
 <body>
-    <header class="container-fluid py-3 " style="background-color: rgb(183, 0, 255);">
+    <header class="container-fluid py-3 " style="background-color: orangered;">
         <div class="row">
-            <div class="col-md-2 text-center">
+            <div class="col-md-1 text-center">
                 <a href="" class="text-light"><i class="fa-solid fa-home fa-2x"></i></a>
             </div>
             <div class="col-md-1">
-                <a href="kemeja.html" class="btn text-light">kemeja</a>
+                <a href="kemeja.html" class="btn text-light">Kemeja</a>
             </div>
             <div class="col-md-1">
-                <a href="sepatu.html" class="btn text-light">sepatu</a>
+                <a href="sepatu.html" class="btn text-light">Sepatu</a>
             </div>
             <div class="col-md-1">
-                <a href="jaket.html" class="btn text-light">jaket</a>
+                <a href="jaket.html" class="btn text-light">Jaket</a>
             </div>
             <div class="col-md-1">
-                <a href="celana.html" class="btn text-light">celana</a>
+                <a href="celana.html" class="btn text-light">Celana</a>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                  </form>
+            </div>
+            <div class="col-md-3">
                 <a href="" class="btn text-light" style="float: right;"><i class="fa-solid fa-right-to-bracket">sig in</i></a>
             </div>
         </div>
     </header>
 
-    <main class="container border mt-4">
+    <main class="container mt-4">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="text-center">sepatu</h2>
+                <h2 class="text-center">Sepatu</h2>
             </div>
         </div>
         <div class="row">
@@ -45,7 +58,7 @@
             <div class="col-md-8">
                 <img src="assets/sepatu.jpg" class="" alt="" style="width: 200px;">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus beatae pariatur voluptatem ex adipisci, totam quisquam nemo hic nostrum voluptate, a eaque dolore itaque, doloremque error soluta ad sapiente ipsam.</p>
-                <a href="" class="btn btn-primary mb-2">pesan</a>
+                <a href="" class="btn btn-primary mb-2">Pesan</a> Rp 1.000.000
             </div>
                 
             </div>
@@ -55,24 +68,31 @@
 
 
 
-    <footer class="container mt-2">
+    <footer class="container-fluid bg-dark text-light mt-5">
+        <hr>
         <div class="row">
         <div class="col-md-6">
-            <h3>About Us</h3>
-            <p>Ahmad Diaz Ilyasha</p>
-            <p>XII RPL 1</p>
-            <p>Adlysh4</p>
+            <h4>About Us</h4>
+            <p>Ahmad Diaz Ilyasha <br>
+               XII RPL 1 <br>
+               Adlysh4
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolorem commodi ad eligendi, aliquam ullam doloribus esse modi, consequatur quaerat pariatur, ab sit laudantium et ipsam molestiae eum eos placeat?</p>
         </div>
         <div class="col-md-3">
-            <h3>Tags</h3>
-            <p>@RPL 1.2022</p>
+            <h4>Tags</h4>
+            <p>@RPL 1.2022 <br>
+               @GitHub .2022 <br>
+               @Bootstrap .2022 <br>
+               @FontAwesome .2022 <br>
+            </p>
         </div>
         <div class="col-md-3">
-            <h3>contact</h3>
-            <p><i class="fa-solid fa-location"></i> alamat</p>
-            <p><i class="fa-solid fa-phone"></i> to tlp</p>
-            <p><i class="fa-solid fa-home"></i> nama toko</p>
-            <p><i class="fa-solid fa-globe"></i> web</p>
+            <h4>Contact</h4>
+            <p><i class="fa-solid fa-location-dot"></i> Alamat</p>
+            <p><i class="fa-solid fa-phone"></i> No tlp</p>
+            <p><i class="fa-solid fa-home"></i> Nama Toko</p>
+            <p><i class="fa-solid fa-globe"></i> Web</p>
         </div>
     </div>
     </footer>
